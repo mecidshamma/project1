@@ -1,0 +1,111 @@
+/* start our feature */
+.our-features {
+    margin-top: 100px;
+    text-align: center;
+}
+
+body {
+    height: 5000px;
+}
+
+.our-features h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.our-features p {
+    margin-bottom: 50px;
+}
+
+.our-features i {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: rgb(255, 255, 253);
+    line-height: 100px;
+}
+
+.our-features .one-feature {
+    border: 1px solid rgb(216, 216, 216);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.our-features .one-feature:hover {
+    border: 1px solid rgb(248, 1, 1);
+}
+
+/* end our features */
+/* start our team */
+.our-team {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #eee;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.our-team h1 {
+    color: red;
+    font-size: 50px;
+}
+
+.our-team p {
+    margin-bottom: 30px;
+}
+
+.name {
+    margin-top: 20px;
+    color: blue;
+}
+
+.position {
+    font-size: 22px;
+    color: red;
+}
+
+.card-footer a i {
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+/* end our team */
+/* start statistics */
+.statistics {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url(../image/ed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 100px;
+
+}
+
+.overlay {
+    background-color: black;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.number {
+    text-align: center;
+   
+
+}
+
+.number h3 {
+    color: white;
+    font-size: 70px;
+}
+
+/* end statistics */
